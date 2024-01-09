@@ -6,13 +6,22 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 
+
 }
+body{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 2;
+}
+
 .container{
     width: 1140px;
     margin: auto;
 }
 .header{
     background-color: #FFF8F3;
+    z-index: 1;
 }
 .header  nav{
     display: flex;
@@ -58,6 +67,7 @@ nav li a{
     background-image: url(../images/header_bg.png) ;
     background-repeat: no-repeat;
     background-position: right bottom;
+    z-index: 1;
     
    
 }
@@ -242,5 +252,49 @@ nav li a{
 .Experience-column{
     width: 500px;
 }
-
+.update-download{
+    color: white;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.connect{
+    color:  #181818;
+    font-size: 35px;
+    font-weight: 700;
+    
+        
+}
+.connect-time{
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    padding: 20px 0px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+footer ul li a{
+    color: #FD6E0A;
+    font-size: 20px;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 100px 0px;
+}
+footer input{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    margin: 10px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    border: none;
+}
 /* END summary section */
